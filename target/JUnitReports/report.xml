@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.402">
+    <testcase classname="Test the Login Functionality of Swaglabs" name="verify login functionality with valid credentials" time="5.219">
+        <failure message="" type="java.lang.StackOverflowError"><![CDATA[Given user on login page....................................................passed
+When user pass valid standard_user and secret_sauce.........................failed
+And user click on login button..............................................skipped
+Then user will redirected to hompage........................................skipped
+
+StackTrace:
+java.lang.StackOverflowError
+	at StepDefination.SwagLabsLoginStep.user_pass_valid_username_and_password(SwagLabsLoginStep.java:22)
+	at ✽.user pass valid standard_user and secret_sauce(file:///C:/Users/swandhare/eclipse-workspace/BDD_cucumber_Proj/Feature/SwagLabsLogin.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
